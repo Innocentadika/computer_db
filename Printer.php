@@ -23,9 +23,6 @@ include("function.php");
             <script src="main.js"></script>
 </head>
 <body>
-    <p class="user">logged as,</p><?php
-        echo $user_data['$user_name'];
-?>
 <hr>
         <Strong>
             <center><p>Welcome to Printers section. Here we offer quality Printers producing quality documents.</p></center>

@@ -24,9 +24,6 @@ include("function.php");
 
 </head>
 <body class="desktop">
-    <p class="user">logged as,</p><?php
-        echo $user_data['$user_name'];
-?>
     <hr>
                 <img class="New laptop">
             

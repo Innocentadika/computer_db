@@ -2,48 +2,54 @@
 session_start();
 
 include("connection.php");
-include("function.php");
-
-//checks if the user is already loged in.
-$user_data= check_login($con);
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     // check if clicked post button
 
-    $user_name= $_POST['$user_name'];
-    $password= $_POST['$password'];
+    $user_name= $_POST['user_name'];
+    $password= $_POST['password'];
 
-    if (!empty($user_name) && !empty($password) && is_numeric($user_name)){
+    if (!empty($user_name) && !empty($password) && !is_numeric($user_name)){
         # code...
         //saving to the database
-        $query= "select * from user_data where user_name = '$user_name' limit 1";
-
-        //setting max entry
-        $user_id= random_num(20);
-
-        mysqli_query($con, $query);
-
-        if ($result && mysqli_num_rows($result) > 0) 
-    {
-        # code...
-        $user_data= mysqli_fetch_assoc($result);
-
-        if ($user_data['password'] === $password) {
-            # code...
-            $_SESSION['user_id'] = $user_data['user_data'];
-            
-            header("Location: product.php");
-            die;
+        $query= "select * from users where user_name=:id limit 1";
+        try {
+            //code...
+       
+            $cmd= $con->prepare($query);
+            $cmd-> execute([':id'=>$user_name]);
+        
+            //read
+            if ($cmd->rowCount() < 1) {
+                echo " user not found";
+            }
+            else {
+                
+                
+                $user_data = $cmd->fetchObject();
+                
+                if (password_verify($password,$user_data->password)) {
+                    # code...
+                    $_SESSION['user_id'] = $user_data->user_name;
+                    
+                    header("Location: product.php");
+                    die;
+                }
+                else {
+                    
+                    echo"Wrong Password or Username!";
+                }
+            }
+        } catch (PDOException $e) {
+            //throw $th;
+            echo "Faile to connect";
+            file_put_contents('pdoerror.txt',$e->getMessage());
         }
     }
 
 }
-    else {
-        
-        echo"Wrong Password or Username!";
-    }
     
-}
+    
 ?>
 
 <!DOCTYPE html>
@@ -59,7 +65,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <body class="log">
     
  <div class="enter">
-    <form method="post" target="_parent">
+    <form method="POST" target="_parent">
         <h1>Welcome to Login Page</h1><br>
     <label for="email"><b>Username:</b></label>
     <input type="email" name="user_name" id="text" placeholder="Enter Validemail...@gmail" required/><br><br>

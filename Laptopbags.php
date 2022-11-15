@@ -24,9 +24,6 @@ include("function.php");
     <script src="main.js"></script>
 </head>
 <body class="bags">
-            <p class="user">logged as,</p><?php
-            echo $user_data['$user_name'];
-        ?>
     <hr>
     
         <div class="column">

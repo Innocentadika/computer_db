@@ -24,9 +24,6 @@ $user_data= check_login($con);
         <a href="product.php"class="nav-link">Home</a>
 
     </nav>
-            <p class="user">logged as,</p><?php
-                    echo $user_data['$user_name'];
-            ?>
             <hr>
         <Strong>
             <center><p>Welcome to Printers section. Here we offer quality Printers producing quality ideas.</p></center>

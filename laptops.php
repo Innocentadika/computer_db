@@ -23,10 +23,6 @@ include("function.php");
     </nav>
 </head>
 <body class="front">
-
-                                        <p class="user">logged as,</p><?php
-                     echo $user_data['$user_name'];
-                                    ?>
                 <hr>
         <h1><center>Laptops</center></h1>
                 <hr>
@@ -199,7 +195,7 @@ include("function.php");
         <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
     </div>
     <div class="column">
-        <img src="../images/laptop/hp lite5.jpg" alt="Laptops" sizes="100" srcset=""></img>
+        <img src="./images/laptop/hp lite5.jpg" alt="Laptops" sizes="100" srcset=""></img>
         <figcaption>Hp Pavelion Core i7</figcaption>
         <figcaption>RAM 8GB ROM 1TB</figcaption>
         <figcaption>Processor 3.1GHZ</figcaption>

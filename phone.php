@@ -25,10 +25,6 @@ include("function.php");
     
         </nav>
 
-                                <p class="user">logged as,</p><?php
-                            echo $user_data['$user_name'];
-                                    ?>
-
         <h1><center>Phones</center></h1>
     <div class="column">
         <img src="./images/iphone 11 Pro.jfif" alt="Laptops" sizes="100" srcset=""></img>

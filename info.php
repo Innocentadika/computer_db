@@ -19,12 +19,6 @@ include("function.php");
     
 </head>
 <body> 
-    <nav class="navigation ">
-        <!-- navigation section -->
-        <div>
-        <a href="product.php"class="nav-link">Products</a>
-    </div>
-    </nav>
     
     
         <center> <img src="./images/my page.jpg" alt="" sizes="200" srcset="" class="font"></center>
@@ -47,8 +41,8 @@ include("function.php");
     <ul>
         <li><a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" class="fa fa-phone">safaricom 0703618170</a>  & 
             <a href="tel:+254738291518" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" class="fa fa-phone">airtel 0738291518</a></li>
-        <li><a href="#" class="fa fa-facebook">facebook.</a></li>
-        <li><a href="#" class="fa fa-instagram">instagram.</a></li>
+        <li><a href="https://www.facebook.com/innocent.allan.50" class="fa fa-facebook">facebook.</a></li>
+        <li><a href="https://www.instagram.com/innolyster/" class="fa fa-instagram">instagram.</a></li>
         <li><a href="#" class="fa fa-whatsapp">whatsapp.</a> </li>
         <li><a href="#" class="fa fa-tweeter">tweeter.</a> </li>
     </ul>

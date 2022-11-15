@@ -22,9 +22,6 @@ include("function.php");
     <script src="main.js"></script>
 </head>
 <body>
-    <p class="user">logged As,</p><?php
-        echo $user_data['$user_name'];
-?>
     <div class="keyboard">
     <div class="column">
         <img src="./images/download (12).jfif" alt="keyboard" sizes="" srcset=""></img>

@@ -1,35 +1,33 @@
 <?php
-session_start();
+require_once "connection.php";
 
-include("connection.php");
-include("function.php");
+if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
+    $user_name = $_POST['user_name'];
+    $password = $_POST['password'];
+    $confirm_password = $_POST['confirm_password'];
+    
+    if($password != $confirm_password){
+        $_SESSION['error'] = 'Passwords do not match';
+        header("location:signup.php");
+    }else{
+        //encrypting pass
+        $password = password_hash($password,PASSWORD_DEFAULT);
+        //reading data
+        $sql = "INSERT INTO users(user_name,password) VALUES(?,?)";
+        try {
+            $cmd = $con->prepare($sql);
+            $cmd->execute([$user_name,$password]);
+            $_SESSION['success'] = "Registration successful";
 
-if($_SERVER['REQUEST_METHOD'] == "POST"){
-    // check if clicked post button
-
-    $user_name= $_POST['$user_name'];
-
-    $password= $_POST['$password'];
-
-    if (!empty($user_name) && !empty($password) && is_numeric($user_name)){
-        # code...
-        //saving to the database
-        $query= "insert into user_data(user_id,user_name,password) values('$user_id','$user_name','$password')";
-
-        //setting max entry
-        $user_id= random_num(20);
-
-        mysqli_query($con, $query);
-
-       header("Location: Login.php");
-       die;
+            header("Location: Login.php");
+        } catch (PDOException $e) {
+            $_SESSION['error'] = "sorry an error occurred";
+            file_put_contents("pdoerrors.txt",$e->getMessage());
+        }
     }
-    else {
-        
-        echo"Please enter the valid information!";
-    }
-
 }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -71,14 +69,16 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             </strong>
     </div>
 <div class="login">
-    <form  method="post" >
+    <form  method="POST" >
         <img src="./images/Accountancy.jpg" alt="cart" width="400" height="300" srcset=""><br>
             
                     <label for="email"><b>Username:</b></label>
-        <input type="email" name="user_name" id="text" placeholder="Enter Validemail...@gmail" required/><br><br>
+        <input type="email" name="user_name" id="email" placeholder="Enter Validemail...@gmail" required/><br><br>
         
-                    <label for="pwd"><b> Password:</b></label>
-        <input type="password" name="password" id="text" placeholder="Enter Password" maxlength="15" minlength="8" pattern="[a-zA-Z0-9]+" required/><br><br>
+                    <label for="password"><b> Password:</b></label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" maxlength="15" minlength="8" pattern="[a-zA-Z0-9]+" required/><br><br>
+        <label for="confirm_password"><b> Password:</b></label>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="Re Password" maxlength="15" minlength="8" pattern="[a-zA-Z0-9]+" required/><br><br>
 
         
         <input class="save" type="checkbox" name="remember"><strong>Remember Me</strong></input>

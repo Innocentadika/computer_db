@@ -22,10 +22,6 @@ include("function.php");
         <script src="main.js"></script>
 </head>
 <body class="mouse">
-    
-    <p class="user">logged as,</p><?php
-        echo $user_data['$user_name'];
-?>
     <hr>
 <div class="column">
     <img src="./images/download (10).jfif" alt="Mouse" sizes="" srcset=""></img>

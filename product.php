@@ -37,8 +37,8 @@ include("function.php");
 
                                   <header>
 
-
-                            <p class="user">logged as,</p><?php   echo "$user_data['$user_name']"; ?>
+                            
+            <div><p class="user">logged as,<?php   echo $_SESSION['user_id']; ?></p></div>
 
         
        <div id="mySidenav" class="sidenav">

@@ -20,9 +20,6 @@ include("function.php");
     
 </head>
 <body class="desktop">
-    <p class="user">logged as,</p><?php
-        echo $user_data['$user_name'];
-?>
     <hr>
             
                     <h1><center>Desktop Monitors</center></h1>
@@ -74,10 +71,11 @@ include("function.php");
                     <figure class="caption">9 units left!</figure>
                     <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
             </div>
-
             <hr>
+                                                            
+                       <section class="front">
             <h1><center>Laptops</center></h1>
-                <hr>
+            
     <div class="column">
         <img src="./images/laptop/IMG-20221026-WA0005.jpg" alt="Laptops" width="250" height="200"></img>
         <figcaption>Hp Lite Core i5</figcaption>
@@ -174,8 +172,10 @@ include("function.php");
         <figure class="caption">7 units left!</figure>
         <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
     </div>
+                            </section>
+                            <hr>
 
-    <center><h1>Printers</h1></center>
+                                    <center><h1>Printers</h1></center>
                         <hr>
         <div class="column">
                         <img src="./images/download (2).jfif" alt="Printers" sizes="" srcset=""></img>
