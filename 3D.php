@@ -44,9 +44,9 @@ $user_data= check_login($con);
                     <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
         </div>            
         <div class="column">
-        <img src="./images/" alt="Printers" sizes="" srcset=""></img>
+        <img src="./images/3D printers/H6b448b945be7474f9893230aadc30ff4p.jpg_300x300.webp" alt="Printers" sizes="" srcset=""></img>
                     <figcaption>3D Grand for shoes</figcaption>
-                    <figcaption><strong>Ksh.53,000</strong></figcaption>
+                    <figcaption><strong>Ksh.51,000</strong></figcaption>
                     <figcaption>Prints many copies at ago. Plus Free ink set</figcaption>
                     <figcaption>cable use/ internet connection based</figcaption>
                     <figcaption><strong>+ 1 year warranty</strong></figcaption>
@@ -54,7 +54,7 @@ $user_data= check_login($con);
                     <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
         </div>
         <div class="column">
-                <img src="./images/" alt="Printers" sizes="" srcset=""></img>
+                <img src="./images/3D printers/1426742-5be084c1c2cb4eeb8fa118096f82408d.jpg" alt="Printers" sizes="" srcset=""></img>
                     <figcaption>Canon Pixma for clothes</figcaption>
                     <figcaption><strong>Ksh.46,000</strong></figcaption>
                     <figcaption>cable use/ internet connection based</figcaption>

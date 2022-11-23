@@ -29,7 +29,10 @@ include("function.php");
     <figcaption><strong>Ksh.650</strong></figcaption>
     <figcaption>3 hours lifespan</figcaption>
     <figure class="caption">11 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -38,7 +41,10 @@ include("function.php");
     <figcaption><strong>Ksh.450</strong></figcaption>
     <figcaption>2 hours lifespan</figcaption>
     <figure class="caption">18 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
  <div class="column">
@@ -47,7 +53,10 @@ include("function.php");
     <figcaption><strong>Ksh.850</strong></figcaption>
     <figcaption>4 hours lifespan</figcaption>
     <figure class="caption">8 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -56,7 +65,10 @@ include("function.php");
     <figcaption><strong>Ksh.600</strong></figcaption>
     <figcaption>5 hours lifespan</figcaption>
     <figure class="caption">21 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -65,7 +77,10 @@ include("function.php");
     <figcaption><strong>Ksh.650</strong></figcaption>
     <figcaption>4 hours lifespan</figcaption>
     <figure class="caption">23 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -74,7 +89,10 @@ include("function.php");
     <figcaption><strong>Ksh.699</strong></figcaption>
     <figcaption>4 hours lifespan</figcaption>
     <figure class="caption">11 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -82,7 +100,10 @@ include("function.php");
     <figcaption>Black Spider</figcaption>
     <figcaption><strong>Ksh.599</strong></figcaption>
     <figure class="caption">13 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
     <div class="column">
@@ -90,7 +111,10 @@ include("function.php");
     <figcaption>Grey Rat</figcaption>
     <figcaption><strong>Ksh.350</strong></figcaption>
     <figure class="caption">15 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -99,7 +123,10 @@ include("function.php");
     <figcaption><strong>Ksh.600</strong></figcaption>
     <figcaption>5 hours lifespan</figcaption>
     <figure class="caption">9 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
 <div class="column">
@@ -108,7 +135,10 @@ include("function.php");
     <figcaption><strong>Ksh.600</strong></figcaption>
     <figcaption>3 hours lifespan</figcaption>
     <figure class="caption">23 units left!</figure>
-    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+    <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+    </figcaption>
 </div>
 
     

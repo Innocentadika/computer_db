@@ -32,7 +32,10 @@ include("function.php");
                         <figcaption><strong>Ksh.3,500</strong></figcaption>
                         <figcaption>20 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
-                        <<figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (14).jfif" alt="Router" sizes="" srcset=""></img>
@@ -41,7 +44,10 @@ include("function.php");
                         <figcaption>10 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (19).jfif" alt="Router" sizes="" srcset=""></img>
@@ -50,7 +56,10 @@ include("function.php");
                         <figcaption>20 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (21).jfif" alt="Router" sizes="" srcset=""></img>
@@ -59,7 +68,10 @@ include("function.php");
                         <figcaption>40 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (16).jfif" alt="Router" sizes="" srcset=""></img>
@@ -68,7 +80,10 @@ include("function.php");
                         <figcaption>50 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (20).jfif" alt="Router" sizes="" srcset=""></img>
@@ -77,7 +92,10 @@ include("function.php");
                         <figcaption>50 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">14 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (15).jfif" alt="Router" sizes="" srcset=""></img>
@@ -86,7 +104,10 @@ include("function.php");
                         <figcaption>15 users max</figcaption>
                         <figcaption>800 Mbps</figcaption>
                         <figure class="caption">27 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (22).jfif" alt="Router" sizes="" srcset=""></img>
@@ -95,7 +116,10 @@ include("function.php");
                         <figcaption>8 users max</figcaption>
                         <figcaption>500 Mbps</figcaption>
                         <figure class="caption">11 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (13).jfif" alt="Router" sizes="" srcset=""></img>
@@ -104,7 +128,10 @@ include("function.php");
                         <figcaption>30 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">19 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (17).jfif" alt="Router" sizes="" srcset=""></img>
@@ -113,7 +140,10 @@ include("function.php");
                         <figcaption>20 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/download (19).jfif" alt="Router" sizes="" srcset=""></img>
@@ -122,7 +152,10 @@ include("function.php");
                         <figcaption>28 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">10 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
             <div class="column">
                     <img src="./images/images (18).jfif" alt="Router" sizes="" srcset=""></img>
@@ -131,7 +164,10 @@ include("function.php");
                         <figcaption>35 users max</figcaption>
                         <figcaption>1,000 Mbps</figcaption>
                         <figure class="caption">22 units left!</figure>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
             </div>
     </div>
     <hr>

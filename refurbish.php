@@ -29,7 +29,10 @@ include("function.php");
                     <figcaption><strong>Ksh.21,500</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">15 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <div class="column">
                     <img src="./images/Desktop/Hp prodesk 500 G1.jpg" alt="Desktop Monitor" sizes="100" srcset=""></img>
@@ -37,7 +40,10 @@ include("function.php");
                     <figcaption><strong>Ksh.23,500</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">5 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <div class="column">
                     <img src="./images/Desktop/Hp prodesk 600 G1.jpg" alt="Laptops" sizes="100" srcset=""></img>
@@ -45,7 +51,10 @@ include("function.php");
                     <figcaption><strong>Ksh.27,000</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">5 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <div class="column">
                     <img src="./images/Desktop/Hp prodesk 600 G2.jpg" alt="Desktop Monitor" sizes="100" srcset=""></img>
@@ -53,7 +62,10 @@ include("function.php");
                     <figcaption><strong>Ksh.23,500</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">11 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <div class="column">
                     <img src="./images/Desktop/Hpr prodesk Business.jpg" alt="Desktop Monitor" height="200" width="250"></img>
@@ -61,7 +73,10 @@ include("function.php");
                     <figcaption><strong>Ksh.26,500</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">10 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <div class="column">
                     <img src="./images/download (8).jfif" alt="Desktop Monitor" sizes="100" srcset=""></img>
@@ -69,7 +84,10 @@ include("function.php");
                     <figcaption><strong>Ksh.10,000</strong></figcaption>
                     <figcaption><strong>Refurbished</strong></figcaption>
                     <figure class="caption">9 units left!</figure>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
             </div>
             <hr>
                                                             
@@ -84,7 +102,10 @@ include("function.php");
         <figcaption>Refurbished</figcaption>
         <figcaption><strong>Ksh.21,000</strong></figcaption>
         <figure class="caption">5 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -94,7 +115,10 @@ include("function.php");
         <figcaption>Refurbished</figcaption>
         <figcaption><strong>Ksh.23,000</strong></figcaption>
         <figure class="caption">8 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -104,7 +128,10 @@ include("function.php");
         <figcaption><strong>Ksh.35,000</strong></figcaption>
         <figcaption>Refurbished</figcaption>
         <figure class="caption">10 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -116,7 +143,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.29,000</strong></figcaption>
         <figure class="caption">10 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -127,7 +157,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.20,000</strong></figcaption>
         <figure class="caption">6 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -138,7 +171,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.15,000</strong></figcaption>
         <figure class="caption">9 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
         <div class="column">
         <img src="./images/images (43).jfif" alt="Laptops" sizes="100" srcset=""></img>
@@ -148,7 +184,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.19,000</strong></figcaption>
         <figure class="caption">5 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -159,7 +198,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.27,000</strong></figcaption>
         <figure class="caption">8 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
 
     <div class="column">
@@ -170,7 +212,10 @@ include("function.php");
         <figcaption><strong>Refurbished items</strong></figcaption>
         <figcaption><strong>Ksh.17,500</strong></figcaption>
         <figure class="caption">7 units left!</figure>
-        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+        <figcaption>
+                <a href="cart.php"><button>Add to Cart</button></a>
+                <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+        </figcaption>
     </div>
                             </section>
                             <hr>
@@ -185,7 +230,10 @@ include("function.php");
                         <figcaption>cable use/ internet connection based</figcaption>
                         <figure class="caption">9 units left!</figure>
                         <figcaption><strong>Refurbished</strong></figcaption>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
         </div>
         <div class="column">
                         <img src="./images/images (8).jfif" alt="Printers" sizes="" srcset=""></img>
@@ -194,7 +242,10 @@ include("function.php");
                         <figcaption>cable use/ internet connection based</figcaption>
                         <figure class="caption">6 units left!</figure>
                         <figcaption><strong>Refurbished</strong></figcaption>
-                        <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                        <figcaption>
+                            <a href="cart.php"><button>Add to Cart</button></a>
+                            <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                        </figcaption>
         </div>
         <div class="column">
                     <img src="./images/images (12).jfif" alt="Printers" sizes="" srcset=""></img>
@@ -204,7 +255,10 @@ include("function.php");
                     <figcaption>cable use/ internet connection based</figcaption>
                     <figure class="caption">4 units left!</figure>
                     <figcaption><strong>Refurbished</strong></figcaption>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
         </div>
         <div class="column">
                     <img src="./images/images (11).jfif" alt="Printers" sizes="" srcset=""></img>
@@ -213,7 +267,10 @@ include("function.php");
                     <figcaption>cable use/ internet connection based</figcaption>
                     <figure class="caption">14 units left!</figure>
                     <figcaption><strong>Refurbished</strong></figcaption>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
         </div>
         <div class="column">
                     <img src="./images/download (2).jfif" alt="Printers" sizes="" srcset=""></img>
@@ -222,7 +279,10 @@ include("function.php");
                     <figcaption>cable use/ internet connection based</figcaption>
                     <figure class="caption">5 units left !</figure>
                     <figcaption><strong>Refurbished</strong></figcaption>
-                    <figcaption><button>Add to Cart</button><a href="tel:254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a></figcaption>
+                    <figcaption>
+                        <a href="cart.php"><button>Add to Cart</button></a>
+                        <a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><span title="call the saler"><button class="call">CALL</button></span></a>
+                    </figcaption>
         </div>
 <hr>
 

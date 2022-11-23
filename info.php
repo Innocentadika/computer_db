@@ -41,10 +41,10 @@ include("function.php");
     <ul>
         <li><a href="tel:+254703618170" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" class="fa fa-phone">safaricom 0703618170</a>  & 
             <a href="tel:+254738291518" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});" class="fa fa-phone">airtel 0738291518</a></li>
-        <li><a href="https://www.facebook.com/innocent.allan.50" class="fa fa-facebook">facebook.</a></li>
+        <li><a href="https://www.facebook.com/innocent.allan.50" class="fa fa-facebook">acebook.</a></li>
         <li><a href="https://www.instagram.com/innolyster/" class="fa fa-instagram">instagram.</a></li>
         <li><a href="#" class="fa fa-whatsapp">whatsapp.</a> </li>
-        <li><a href="#" class="fa fa-tweeter">tweeter.</a> </li>
+        <li><a href="#" class="fa fa-twitter">twitter.</a> </li>
     </ul>
         <p>We've had customer satisfaction feedback and we also value yours. We're dedicated to giving an immediate response 24/7.</p>
                                         <center>

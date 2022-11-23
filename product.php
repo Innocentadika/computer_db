@@ -24,7 +24,7 @@ include("function.php");
 
          <a href="info.php" target="_self" class="nav-link"><span title="More infomation you need to know">About Us</span></a>
          <a href="#" target="_self" class="nav-link"><span title="Profile and Settings">Profile</span></a></a>
-         <a href="#" target="_top" class="nav-link"><span title="Shopping details">Carts</span></a>
+         <a href="cart.php" target="_top" class="nav-link"><span title="Shopping details">Carts</span></a>
   </nav>
           <div class="dropdown">
             <span title=" You will be redirected to Login" class="dropbtn"><a href="logout.php" target="_self">Logout</a></span>
@@ -38,7 +38,7 @@ include("function.php");
                                   <header>
 
                             
-            <div><p class="user">logged as,<?php   echo $_SESSION['user_id']; ?></p></div>
+            <div><p class="user">Logged As:<?php   echo $_SESSION['user_id']; ?></p></div>
 
         
        <div id="mySidenav" class="sidenav">
@@ -70,13 +70,13 @@ include("function.php");
   document.getElementById("mySidenav").style.width = "0";
   }
   </script>
-
-  <div id="myOverlay" class="overlay">
-    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
-    <div class="overlay-content">
-      <form action="javascript:void(0)" method="get">
+  <!-- search panel -->
+<form>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+      <div class="overlay-content"> 
         <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+          <button type="submit"><i class="fa fa-search"></i></button>
       </form>
     </div>
 

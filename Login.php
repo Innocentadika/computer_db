@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             }
         } catch (PDOException $e) {
             //throw $th;
-            echo "Faile to connect";
+            echo "Failed to connect";
             file_put_contents('pdoerror.txt',$e->getMessage());
         }
     }
@@ -73,6 +73,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 <label for="pwd"><b> Password:</b></label>
     <input type="password" name="password" id="text" placeholder="Enter Password" maxlength="15" minlength="8" pattern="[a-zA-Z0-9]+" required/><br>
         <center><button type="submit" class="dropbt">login</button></center><br>
+        <div class="adm">
+        <center><a href="./admin/login.php"><em>Login as Admin</em></a></center>
+        </div>
         <center><a href="reset.php"><em>Forgot Password</em></a></center>
     
     </form>

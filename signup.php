@@ -87,6 +87,10 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
                     <div class="container signin">
             <p>Already have an account?<a href="Login.php">Sign in</a>.</p>
                     </div>
+
+                    <div class="container signin">
+            <p>Sign up as Admin<a href="./admin/register.php">Register</a>.</p>
+                    </div>
         
     </form>
 </div>         
