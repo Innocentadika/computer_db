@@ -1,3 +1,26 @@
+<?php
+require_once "connection.php";
+
+if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
+    $user_name = $_POST['user_name'];
+    
+        //reading data
+        $sql = "INSERT INTO users(user_name,password) VALUES(?,?)";
+        try {
+            $cmd = $con->prepare($sql);
+            $cmd->execute([$password]);
+            $_SESSION['success'] = "email sent successful";
+
+            header("Location: Login.php");
+        } catch (PDOException $e) {
+            $_SESSION['error'] = "sorry an error occurred, type correct email!";
+            file_put_contents("pdoerrors.txt",$e->getMessage());
+        }
+    }
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +74,7 @@
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
                                                 placeholder="Enter Email Address..."><br><br>
-                                    <a href="login.php">Reset Password</a>
+                                                <input type="submit" value="Reset Password">
                                 </center>
     
     </form>

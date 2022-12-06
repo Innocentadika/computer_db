@@ -463,7 +463,7 @@ image-rendering: crisp-edges;
   text-decoration: double;
 
 }
-/****************************************** Three image containers (use 25% for four, and 50% for two, etc) ***********************************/
+/****************************************Three image containers (use 25% for four, and 50% for two, etc) ***********************************/
 .column {
   float: left;
   width: 33.33%;
