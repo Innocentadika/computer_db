@@ -59,21 +59,22 @@
 	                                        </tr>
 	                                    </thead>
 	                                    <tbody>
-	                                        <?php if($cart_data){ foreach($cart_data as $cart_key => $cart_value){ 
+	                                        <?php if($cart_data){ foreach($cart_data as $cart_key => $cart_value)
+												{ 
 	                                            $qty = $_SESSION['product_qty_cart'][$cart_key];
 	                                            $field_val['p_number'] = $cart_value;
 	                                            $get_cart = $user_function->select_where_cart("products", $field_val);
-	                                            $subtotal = $qty * $get_cart['p_amount'];
+	                                            $subtotal = $qty * $get_cart['product_price'];
 	                                            $total[] = $subtotal;
 	                                        ?>
 	                                        <tr>
 	                                            <th scope="row"><?php echo $counter; $counter++; ?></th>
 	                                            <td>
-	                                                <img src="images/<?php echo $get_cart['p_image']; ?>" class="box-image-set-2">
+	                                                <img src="images/<?php echo $get_cart['product_image']; ?>" class="box-image-set-2">
 	                                            </td>
-	                                            <td><?php echo $get_cart['p_name']; ?></td>
+	                                            <td><?php echo $get_cart['product_name']; ?></td>
 	                                            <td><?php echo $qty; ?></td>
-	                                            <td><?php echo $get_cart['p_amount']; ?></td>
+	                                            <td><?php echo $get_cart['product_price']; ?></td>
 	                                            <td><?php echo $subtotal; ?></td>
 	                                            <td>
 	                                                <button class="btn btn-sm btn-danger rm-val" data-dataval="<?php echo $cart_key; ?>">

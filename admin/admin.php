@@ -1,5 +1,5 @@
 <?php
-require_once "connection.php";
+require_once "../connection.php";
 
 if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
     $user_name = $_POST['user_name'];
@@ -40,7 +40,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>Register</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

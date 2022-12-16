@@ -1,5 +1,5 @@
 <?php
-include("connection.php");
+include_once "../connection.php";
 
 if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
     $first_name = $_POST['first_name'];
@@ -10,7 +10,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
     
     if($password != $confirm_password){
         $_SESSION['error'] = 'Passwords do not match';
-        header("location:signup.php");
+        header("location: register.php");
     }else{
         //encrypting pass
         $password = password_hash($password,PASSWORD_DEFAULT);
@@ -21,7 +21,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
             $cmd->execute([$first_name,$last_name,$email,$password]);
             $_SESSION['success'] = "Registration successful";
 
-            header("Location: Login.php");
+            header("Location: login.php");
         } catch (PDOException $e) {
             $_SESSION['error'] = "sorry an error occurred";
             file_put_contents("pdoerrors.txt",$e->getMessage());
@@ -42,7 +42,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>Computer Shop Admin Registration</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -90,13 +90,11 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
                                             id="password" name="password" placeholder="Password">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
+                                        <input type="confirm_password" class="form-control form-control-user"
                                             id="confirm_password" name="confirm_password" placeholder="Repeat Password">
                                     </div>
                                 </div>
-                                <a href="login.php" class="btn btn-primary btn-user btn-block">
-                                    Register Account
-                                </a>
+                                <input type="submit" value="Register" class="btn btn-primary btn-user btn-block" >
                                 <hr>
                             </form>
                             <hr>

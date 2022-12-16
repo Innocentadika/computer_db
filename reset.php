@@ -8,7 +8,7 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
         $sql = "INSERT INTO users(user_name,password) VALUES(?,?)";
         try {
             $cmd = $con->prepare($sql);
-            $cmd->execute([$password]);
+            $cmd->execute([$user_name]);
             $_SESSION['success'] = "email sent successful";
 
             header("Location: Login.php");
@@ -69,10 +69,10 @@ if(strtolower($_SERVER["REQUEST_METHOD"]) === "post"){
                                     <style>
                                         input[type=email]
                                     </style>
-                                    <form >
+                                    <form method="post">
                                 <center>
                                             <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                                id="user_name" name="user_name" aria-describedby="emailHelp"
                                                 placeholder="Enter Email Address..."><br><br>
                                                 <input type="submit" value="Reset Password">
                                 </center>

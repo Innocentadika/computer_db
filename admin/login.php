@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include("connection.php");
+include_once "../connection.php";
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     // check if clicked post button
@@ -32,8 +32,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                     # code...
                     $_SESSION['user_id'] = $user_data->user_name;
                     
-                    //header("Location: product.php");
-                    //die;
+                    header("Location: index.php");
+                    die;
                 }
                 else {
                     
@@ -99,12 +99,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                                     <form method="POST" class="user">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                                id="user_name" name="user_name" aria-describedby="emailHelp"
                                                 placeholder="Enter Email Address...">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password">
+                                                id="password" name="password" placeholder="Password">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -113,11 +113,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="index.php" class="btn btn-primary btn-user btn-block">
+                                        <!-- <a  class="btn btn-primary btn-user btn-block">
                                             Login
-                                        </a>
+                                        </a> -->
+                                        <input type="submit" value="Login" class="btn btn-primary btn-user btn-block" >
                                         <hr>
-                                        <a href="index.php" class="btn btn-google btn-user btn-block">
+                                        <a href="#" class="btn btn-google btn-user btn-block">
                                             <i class="fab fa-google fa-fw"></i> Login with Google
                                         </a>
                                     </form>

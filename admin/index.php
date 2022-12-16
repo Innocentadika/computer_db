@@ -79,7 +79,7 @@ include_once "sidebar.php";
                                         <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                             aria-labelledby="dropdownMenuLink">
                                             <div class="dropdown-header">Dropdown Header:</div>
-                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="../product.php">Action</a>
                                             <a class="dropdown-item" href="#">Another action</a>
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#">Something else here</a>
@@ -267,7 +267,7 @@ include_once "sidebar.php";
                                     </div>
                                     <p>Follow me on github to check out more of my work.
                                         <a target="_blank" rel="nofollow" href="https://github.com/Innocentadika">Github</a>
-                                        <p>Please click on Utilities to add,delete and edit your Product posted.</p>
+                                        <p>Please click on Products to add,delete and edit your Product posted.</p>
                                 </div>
                             </div>
 
@@ -295,7 +295,7 @@ include_once "sidebar.php";
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Your Website 2022</span>
                     </div>
                 </div>
             </footer>
